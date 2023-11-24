@@ -70,13 +70,13 @@ const Uploader = ({
               </Grid>
             </form>
           </Grid>
-          <Grid item>
+          {/* <Grid item>
             <Divider fullWidth />
           </Grid>
           <Grid item>
             <Typography variant="h6">{formatMessage(uploadLabel)}</Typography>
-          </Grid>
-          <Grid item>
+          </Grid> */}
+          {/* <Grid item>
             <form noValidate>
               <Grid container spacing={1} direction="column">
                 <Grid item>
@@ -164,7 +164,7 @@ const Uploader = ({
                 </Grid>
               </Grid>
             </form>
-          </Grid>
+          </Grid> */}
         </Grid>
       </Block>
     </Grid>
